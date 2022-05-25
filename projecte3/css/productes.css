@@ -1,0 +1,29 @@
+.productes1{
+  margin-bottom: 10px;
+}
+.productes2{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  margin: 5px;
+}
+h2{
+  border: 10px solid #0067da;
+  border-radius: 20px;
+  background: #cdf2ff;
+  padding: 10px 20px;
+  margin: 0 5%;
+  margin-top: 1%;
+  text-align: center;
+}
+.preu{
+  display: block;
+  text-align: left;
+}
+@media screen and (min-width: 100px) and (max-width: 550px) {
+  .productes2{
+    display: flex;
+    flex-flow: wrap;
+  }
+}
